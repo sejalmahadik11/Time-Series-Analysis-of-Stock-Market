@@ -14,17 +14,14 @@ The models implemented include:
 4. Baseline Models (Moving Averages) – for simple smoothing and trend tracking.
 
 In addition, a Power BI dashboard was developed to interactively visualize:
+Stock trends, daily returns, and moving averages
+Forecasted vs. actual prices
+Key KPIs (total traded volume, average close price, max high, min low, deliverable percentage)
 
-> Stock trends, daily returns, and moving averages
+Key Insights
 
-> Forecasted vs. actual prices
+Decomposition revealed clear trend and seasonal patterns in certain stocks (e.g., ULTRACEMCO), while others showed high volatility (e.g., TCS).
 
-> Key KPIs (total traded volume, average close price, max high, min low, deliverable percentage)
+RMSE evaluation showed ARIMA/SARIMA performed best on stable stocks, while LSTM outperformed on volatile stocks, highlighting the need to match models to stock behavior.
 
-# Key Insights
-
-> Decomposition revealed clear trend and seasonal patterns in certain stocks (e.g., ULTRACEMCO), while others showed high volatility (e.g., TCS).
-
-> RMSE evaluation showed ARIMA/SARIMA performed best on stable stocks, while LSTM outperformed on volatile stocks, highlighting the need to match models to stock behavior.
-
-> The Power BI dashboard enabled risk-focused monitoring with interactive insights for analysts.
+The Power BI dashboard enabled risk-focused monitoring with interactive insights for analysts.
