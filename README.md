@@ -14,8 +14,8 @@ The models implemented include:
 4. Baseline Models (Moving Averages) – for simple smoothing and trend tracking.
 
 In addition, a Power BI dashboard was developed to interactively visualize:
-Stock trends, daily returns, and moving averages
-Forecasted vs. actual prices
+Stock trends, daily returns, and moving averages, 
+Forecasted vs. actual prices,
 Key KPIs (total traded volume, average close price, max high, min low, deliverable percentage)
 
 Key Insights
